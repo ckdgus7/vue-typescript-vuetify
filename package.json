@@ -1,7 +1,8 @@
 {
-  "name": "vue-typescript",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-external-test-m",
+  "version": "0.1.1",
+  "private": false,
+  "unpkg": "dist/external-component.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
