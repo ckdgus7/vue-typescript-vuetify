@@ -1,13 +1,14 @@
 {
   "name": "vue-external-test-m",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "private": false,
+  "main": "dist/external-component.common.js",
   "unpkg": "dist/external-component.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build:lib": "vue-cli-service build --target lib --filename external-component --name externalComponent src/index.ts"
+    "build:lib": "vue-cli-service build --target lib --filename external-component --name ExternalComponent src/index.ts"
   },
   "dependencies": {
     "core-js": "^3.6.5",
